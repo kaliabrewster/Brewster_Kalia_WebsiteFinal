@@ -1,0 +1,109 @@
+.grid-container {
+    display: grid;
+    gap: 12px;
+}
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.col-3 {
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.col-2 {
+    grid-template-columns: 1fr 1fr;
+    
+ }
+
+nav {
+    text-align:right;
+    background-color: #212132;
+}
+
+
+a {
+    font-size: 20px;
+    color:white;
+    font-family:helvetica;
+    text-decoration:none;
+    text-align:center;
+    font-weight: bold;
+    padding: 40px;
+    
+}
+.align-left {
+    text-align:left;
+}
+
+.logo {
+    padding:10px;
+    background-color: #212132;
+}
+.pie {
+    padding:30px;
+}
+
+.align-right {
+    text-align:right;
+}
+.align-center {
+    text-align:center;
+}
+.padding {
+    padding:20px;
+}
+
+h1 {
+    font-size:100px;
+    color: #212132;
+    font-family:helvetica;
+}
+.sec-2{
+    background-color: #ED9F3C;
+    text-align: center;
+    padding:30px;
+}
+
+button {
+    color:white;
+    background-color: #ED9F3C;
+    padding: 20px;
+    border:none;
+}
+.blue-button {
+    color:white;
+    background-color: #212132;
+    padding: 20px;
+}
+.dropdown {
+    background-color:#212132;
+}
+#panel {
+    padding: 50px;
+    display: none;
+  }
+  .close-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.graphic-element {
+    position:absolute;
+    bottom:0;
+    left:0;
+    opacity: 30%;
+}
+.orange-element {
+    position:absolute;
+    bottom:0;
+    right:0;
+    opacity: 30%;
+
+}
+.footer {
+    background-color:#212132;
+    text-align:center;
+    padding:20px;
+}

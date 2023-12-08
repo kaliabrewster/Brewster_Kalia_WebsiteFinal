@@ -1,11 +1,103 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website HTML</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="logo">
+        <div class="flex-container">
+            <img src="images/small logo.png" width="200px" class="logo align-left">
+            <nav>
+                    <a href="#">Home</a>
+                    <a href="#" id="flip">Menu</a>
+                    <a href="#">Reservations</a>
+                    <a href="#">Contact</a>
+                    <button>Make a Reservation</button>
+            </nav>
+        </div>
+       
+    </header>
+    <div class="dropdown" id="panel">
+        <div>
+          <a href="#">Breakfast</a>
+          <button class="close-button" id="close">x</button> 
+        </div>
+        <div>
+            <a href="#">Lunch</a> 
+          </div>
+          <div>
+            <a href="#">Dinner</a> 
+          </div>
+          
+    </div>
+
+    <main>
+        <section class="grid-container col-3">
+            <img src="images/pic logo head.png" width="250px" class="align-right padding">
+            <div class="align-left">
+                <h1>Together.</h1>
+                <p>Kasama brings traditional Filipino food to Chicago with an elegant twist. In Tagaolog, kasama means together. We aim to bring Filipino culture to you, blending traditions and bringing the community together.</p>
+                <button>Make a Reservation</button>
+            </div>
+            <img src="images/server.png" width="350px" class="align:center padding">
+        </section>
+        <section class="sec-2">
+            <img src="images/ribs.png" width="300px">
+            <img src="images/baguettes.png" width="800px">
+            <img src="images/lettuce.png" width="300px">
+            <p style="color:white">Bringing you tasty and elegant dishes from halfway around the world; filipino cuisine is a mixture of sweet, salty, and sour flavors. Rice figures heavily and coconut is of utmost importance. Try our unique flavors - we only bring the best.</p>
+            <button class="blue-button">Make a Reservation</button>
+        </section>
+        <section style="position:relative">
+            <div class="grid-container col-2" style="max-width: 2000px;">
+                <img src="images/pie.jpg" width="550px" class="align-right pie">
+                <div style="text-align:left;">
+                    <h1>Kasama Bakery</h1>
+                    <button>Check Out Our Menu Here</button>
+                    <p>Kasama bakery delivers the highest quality of baked goods, paired with unique Filipino flavors, that you don’t want to miss!</p>
+                </div>
+            </div>
+            <img src="images/orange-element.png" width="400" class="orange-element">
+        </section>
+        <section style="background-color: #212132; position:relative">
+            <div class="grid-container col-2" style="max-width: 2000px;">
+                <div style="text-align:left; padding: 20px;">
+                    <h1 style="color:white;">Meet the Owners</h1>
+                    <button>Find Out More</button>
+                    <p style="color:white;">Kasama is a bakery and modern Filipino restaurant from chefs Genie Kwon and Timothy Flores located in the East Ukrainian Village neighborhood of Chicago. We look forward to welcoming you! </p>
+                </div>
+                <img src="images/Tim+and+Genie-65.jpg" width="550px" style="text-align:right; padding: 30px">
+            </div>
+            <img src="images/white-element.png" width="400" class="graphic-element">
+        </section>
+        <section style="text-align: center;">
+            <div>
+                <img src="images/MichelinStar.svg.png" width="100px" style="padding:30px;">
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="footer">
+            <button class="blue-button">Follow Us</button>
+            <div>
+                <a href="#">
+                    <img src="images/Screenshot 2023-12-06 at 10.08.15 AM.png" width="30px">
+                </a>
+                <a href="#">
+                    <img src="images/Screenshot 2023-12-06 at 10.08.27 AM.png" width="30px">
+                </a>
+                <a href="#">
+                    <img src="images/Screenshot 2023-12-06 at 10.08.34 AM.png" width="30px">
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="javascript/index.js"></script>
+</body>
+
 </html>
